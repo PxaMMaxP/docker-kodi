@@ -51,7 +51,7 @@ ARG KODI_EXTRA_PACKAGES=
 RUN packages="                                               \
                                                              \
     ca-certificates                                          \
-    kodi=2:${KODI_VERSION}+*                                 \
+    kodi=6:${KODI_VERSION}+*                                 \
     kodi-eventclients-kodi-send                              \
     kodi-game-libretro                                       \
     kodi-game-libretro-beetle-pce-fast                       \
