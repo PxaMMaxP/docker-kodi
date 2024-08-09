@@ -18,7 +18,8 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-FROM ubuntu:focal
+ARG UBUNTU_RELEASE=impish
+FROM ubuntu:$UBUNTU_RELEASE
 
 ARG KODI_VERSION=20.2
 
